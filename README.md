@@ -66,6 +66,8 @@ No cron jobs, Edge Functions, Realtime subscriptions, polling or background work
 in `src/lib/supabase.js`, every request times out after 15 s, and the code generator is a bounded loop. The only recurring
 work is cleanup of old rows, which piggybacks on normal requests. A free Supabase project may pause itself after about a week
 without activity; open the dashboard to resume it.
+BY 
+Mohamed Soliman
 
 ## Known limitations
 - No teacher accounts: results are tied to a secret key kept in the teacher's browser (clearing site data loses access)
